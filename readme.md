@@ -44,9 +44,10 @@ class A{
     {
         public static void main(String a[]){
          A obj=new A();
-            
+
         }
     }
 
     }
 }
+as
