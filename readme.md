@@ -84,3 +84,16 @@ public class Enum{
 **********************************************************************************************************
 interface -: we use it when want to the design only we use it 
 it cant be used further like abstract, bydefault all the variable are final and static 
+**********************************************************************************************************
+Type of interface -: there are three type opf 
+1. Normal Interface
+2. Functional Interface (SAM – Single Abstract Method Interface)
+3. Marker Interface
+
+Normal Interface-: A normal interface is an interface that contains two or more abstract
+methods
+Functional Interface (SAM – Single Abstract Method Interface)-:is an interface that contains only one abstract method.
+Marker Interface-:not contain any methods, fields,or constants
+**********************************************************************************************************
+
+
