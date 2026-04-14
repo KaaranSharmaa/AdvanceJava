@@ -127,6 +127,21 @@ accessing an invalid index in an array, or working with unavailable resources
 (like files). These errors are also called exceptions.
 **********************************************************************************************************
 Try and catch is used in Runtime errors intry we type tthe logic will in whichwe can see that it can have error  so we enter the logic there and in catch we type the response we want in return if error ocurs
+**********************************************************************************************************
+taking input from users using scaaner method earlier we use to have buffer methods
+
+Scanner sc = new Scanner(System.in);
+int num = sc.nextInt();
+System.out.println(num);
+Scanner = Java ka class jo input lene ke liye use hota hai
+System.in = keyboard input (user jo type karega)
+nextInt() = user se integer (number) leta hai
+
+
+Scanner sc = new Scanner(System.in);
+String name = sc.nextLine();
+**********************************************************************************************************
+
 
 
 
