@@ -112,9 +112,8 @@ class AnonymousInnerClass{
   obj.show();  }   
         
 }
-
 **********************************************************************************************************
-Error in java 
+Error in javaError in java 
 there are thre type of error in java 
 1. Compile-time errors-:Compile-time errors are errors that are detected by the compiler when a
 program is being compiled. These errors occur due to incorrect syntax, missing
@@ -126,6 +125,9 @@ runtime issues, but they cause incorrect results.
 happen when something unexpected occurs, such as trying to divide by zero,
 accessing an invalid index in an array, or working with unavailable resources
 (like files). These errors are also called exceptions.
+**********************************************************************************************************
+Try and catch is used in Runtime errors intry we type tthe logic will in whichwe can see that it can have error  so we enter the logic there and in catch we type the response we want in return if error ocurs
+
 
 
 
