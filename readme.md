@@ -113,3 +113,20 @@ class AnonymousInnerClass{
         
 }
 
+**********************************************************************************************************
+Error in java 
+there are thre type of error in java 
+1. Compile-time errors-:Compile-time errors are errors that are detected by the compiler when a
+program is being compiled. These errors occur due to incorrect syntax, missing
+files, or other issues that prevent the program from being compiled.
+2. Logical errors-:Logical errors are errors that occur when the program runs successfully, but the
+output is not what was expected. These errors do not cause compilation or
+runtime issues, but they cause incorrect results.
+3. Runtime errors (exceptions)-:Runtime errors occur while the program is running. These errors typically
+happen when something unexpected occurs, such as trying to divide by zero,
+accessing an invalid index in an array, or working with unavailable resources
+(like files). These errors are also called exceptions.
+
+
+
+
