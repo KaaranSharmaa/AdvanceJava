@@ -95,5 +95,21 @@ methods
 Functional Interface (SAM – Single Abstract Method Interface)-:is an interface that contains only one abstract method.
 Marker Interface-:not contain any methods, fields,or constants
 **********************************************************************************************************
+Anonymous Inner Class
+Aclass wgich is define intside the public static void main
+interface a{
+    void show();
+}
 
+class AnonymousInnerClass{
+    public static void main(String[] args) {
+        a obj = new a(){
+        public void show(){
+            System.out.println("in show");
+            // obj.show();
+        }
+        } ;   
+  obj.show();  }   
+        
+}
 
