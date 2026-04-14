@@ -82,3 +82,5 @@ public class Enum{
     }
 }
 **********************************************************************************************************
+interface -: we use it when want to the design only we use it 
+it cant be used further like abstract, bydefault all the variable are final and static 
