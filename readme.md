@@ -181,7 +181,45 @@ public class Multithreading {
         obj1.start();
     }
 }
+**********************************************************************************************************
+thread priorty (its is just suggestion)
+so basically there is a option of also to priortize the thread like which one you want you can suggest
+by using method to set the priorty .setPriority to get prioty getPriority 10 is the maximun and 0 is the mimimun
+class a extends Thread{
+   public  void run(){
+        for (int i = 0; i < 100; i++) 
+        {
+        System.out.println("in show");
+        }
+    }
+}
+class b extends Thread{
+    public void run(){
+        for (int i = 0; i < 100; i++)
+         {
+        System.out.println("in show1");
+        }
+    }
+}
+public class threadpriority {
+    public static void main(String[] args) {
+        
+        a obj=new a();
+        b obj1=new b();
+        obj.setPriority(1);
+        obj1.setPriority(10);
+        obj.start();
+        obj1.start();
+        System.err.println(obj.getPriority());
+    }
+}
 
+
+
+obj.start();   // Start thread A first
+        obj.join();    // Wait for thread A to finish completely
+
+        obj1.start();  // Only now start thread B
 
 
 
