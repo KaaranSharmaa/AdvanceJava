@@ -215,11 +215,28 @@ public class threadpriority {
 }
 
 
-
+**********************************************************************************************************
+The join method basically makes the current thread wait until the thread you call join on finishes. In other words, if you say threadA.join(), it means the code will pause at that point until threadA is completely done running. Once threadA is finished, only then will the next line of code execute. It’s a way to ensure one thread finishes before the next steps happen.
 obj.start();   // Start thread A first
         obj.join();    // Wait for thread A to finish completely
 
         obj1.start();  // Only now start thread B
+
+
+        public static void main(String[] args) throws InterruptedException {
+        
+        a obj=new a();
+        b obj1=new b();
+        obj.setPriority(1);
+        obj1.setPriority(10);
+        obj.start();
+        obj.join();
+        obj1.start();
+        System.err.println(obj.getPriority());
+    }
+}
+**********************************************************************************************************
+
 
 
 
