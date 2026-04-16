@@ -234,9 +234,18 @@ obj.start();   // Start thread A first
         obj1.start();
         System.err.println(obj.getPriority());
     }
-}
-**********************************************************************************************************
 
+**********************************************************************************************************
+Sleep it use to pause the thread for while the time is given in milisecound syntax is 
+
+try{
+        Thread.sleep(1900);}
+        catch(InterruptedException e){
+            System.err.println("error");
+        }
+
+Always given in try and catch so that to catch the errors     InterruptedException is the type of error
+**********************************************************************************************************
 
 
 
