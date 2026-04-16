@@ -146,7 +146,41 @@ The smallest and lightest unit of execution within a process is called a Thread.
 and then there is a schudiler that decide ki which prooces will run we can suggest only.
  They allow processes to perform multiple
 tasks in parallel by breaking them into smaller, independent units.
+**********************************************************************************************************
+Multithreads 
+Multithreading in Java is a powerful feature that allows developers to create
+responsive and efficient applications. While creating and managing threads
+manually is useful for understanding the basics, advanced applications often
+rely on frameworks and tools that handle thread management automatically. By
+leveraging multithreading, we can ensure our programs make the most out of
+modern multi-core systems.
 
+
+Also very important method name should be run() to run it it should start from start()
+class a extends Thread{
+   public  void run(){
+        for (int i = 0; i < 100; i++) 
+        {
+        System.out.println("in show");
+        }
+    }
+}
+class b extends Thread{
+    public void run(){
+        for (int i = 0; i < 100; i++)
+         {
+        System.out.println("in show1");
+        }
+    }
+}
+public class Multithreading {
+    public static void main(String[] args) {
+        a obj=new a();
+        b obj1=new b();
+        obj.start();
+        obj1.start();
+    }
+}
 
 
 
