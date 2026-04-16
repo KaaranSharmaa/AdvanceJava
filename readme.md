@@ -141,7 +141,11 @@ nextInt() = user se integer (number) leta hai
 Scanner sc = new Scanner(System.in);
 String name = sc.nextLine();
 **********************************************************************************************************
-
+threading means that we divid the task into small parts 
+The smallest and lightest unit of execution within a process is called a Thread.
+and then there is a schudiler that decide ki which prooces will run we can suggest only.
+ They allow processes to perform multiple
+tasks in parallel by breaking them into smaller, independent units.
 
 
 
